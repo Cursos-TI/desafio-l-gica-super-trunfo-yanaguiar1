@@ -106,8 +106,10 @@ int main(){
 	printf("Densidade populacional: %.2f hab/km²\n", densidade_populacional1);
 	printf("PIB per capita: %.2e reais\n", pib_capita1);
 	
+	// Váriavel para escolha no switch	
 	int escolha;
 	
+	// Menu interativo para o usuário
 	printf("Escolha o atributo que você quer comparar: \n");
 	printf("[1] - População.\n");
 	printf("[2] - Àrea.\n");
@@ -116,6 +118,7 @@ int main(){
 	printf("[5] - Densidade populacional.\n");
 	scanf("%d", &escolha);
 	
+	// Lógica de escolha do switch
 	switch (escolha) {
 		case 1:
 		if (escolha == 1){
